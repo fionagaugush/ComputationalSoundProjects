@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <script src = "main.js"> </script>
+
+</head>
+<body>
+
+<button id="babbling_brook">Enter the babbling brook</button>
+
+<button id="babbling_brook_off">Leave the babbling brook</button> <br>
+
+<button id="noise">Bounce a Ball</button> <br>
+<IMG SRC="bouncing-ball-3827_256.gif"> <br>
+<div>About this project:</div>
+<div> For this project in addition to recreating the babbling brook, I also attempted to replicate the sound of a ball bouncing on the ground. In order to do this I created a loop of oscillators.  </div>
+<div> After a ball's first bounce, the energy begins to decrease. To show this, I shortened the time inbetween each bounce as the loop went on, as well as decreasing the gain</div>
+<div> I also made sure there were envelopes controlling the gains and frequencies. This allowed for a more realistic noise </div>
+<IMG SRC="decay.png">
+<IMG SRC="decay2.png">
+
+<div> I also added a lowpass filter on each oscillator. Using the Q value of these filters I was able to add a sort of "bouncy-ness" to the sound</div>
+
+<IMG SRC="filter.png">
+<div>  I was going to use FM, however I noticed that without it I could still create a lot of the effects I was aiming for, and it caused the ball to sound too unnatural</div>
+
+<div> The diagram shows my uses of filters and gain nodes I previously mentioned</div>
+<IMG SRC="hw_3_photo.png"> </img>
+
+
+</body>
+</html>
